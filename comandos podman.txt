@@ -1,0 +1,3 @@
+podman build -t rotinavni .  
+podman tag localhost/rotinavni br.icr.io/rotina-vni-ns/pooling-vni
+podman push br.icr.io/rotina-vni-ns/pooling-vni
