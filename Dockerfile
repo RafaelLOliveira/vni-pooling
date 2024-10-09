@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . .
 
-ENV IBMCLOUD_API_KEY="ArGLrs_xMi33P6BXvVnWl33AVT7tjenUMfOnJmGeCihQ"
+ENV IBMCLOUD_API_KEY=<API_KEY>
 
 # Comando para rodar a aplicação
 RUN python -m pip install ibm_vpc
