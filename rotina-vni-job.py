@@ -120,9 +120,7 @@ def attachVniPassivo(vni_id_eth1_ativo, vsi_passivo_id): # attach VNI na VSI Pas
 
 def main(vsi1_id, vsi2_id):
     reserved_ip_eth0_vsi1 = reservedIpVsi(vsi1_id)
-    reserved_ip_eth0_vsi2 = reservedIpVsi(vsi2_id)
-    # fip_1 = "163.107.85.139"
-    # fip_2 = "163.107.90.103"    
+    reserved_ip_eth0_vsi2 = reservedIpVsi(vsi2_id)   
 
     reserved_ip_ativo, vsi_ativo_id, reserved_ip_passivo, vsi_passivo_id = defineAtivoPassivo(reserved_ip_eth0_vsi1, reserved_ip_eth0_vsi2, vsi1_id, vsi2_id)
 
